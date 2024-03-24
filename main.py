@@ -106,7 +106,7 @@ st.set_page_config(
    page_icon='./Logo/logo2.png',
 )
 def run():
-    img = Image.open('./Logo/logo2.png')
+    img = Image.open('./Logo/resume.jpg')
     # img = img.resize((250,250))
     st.image(img)
     st.title("AI Resume Analyser")
