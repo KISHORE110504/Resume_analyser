@@ -21,7 +21,7 @@ import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
 nltk.download('stopwords')
-nltk.data.path.append('./nltk_data/corpora/stopwords')
+nltk.data.path.append('./nltk_data/')
 
 nltk_data_dir = "./nltk_data/"
 if not os.path.exists(nltk_data_dir):
