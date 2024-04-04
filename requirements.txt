@@ -7,4 +7,4 @@ plotly
 pymysql
 streamlit-tags
 Pillow
-nltk==3.8
+nltk==3.6.2
