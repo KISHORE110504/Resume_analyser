@@ -20,9 +20,9 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
-nltk.data.path.append('nltk_data/corpora/stopwords')  # Specify your data path here
+#nltk.data.path.append('nltk_data/corpora/stopwords')  # Specify your data path here
 nltk.download('stopwords')
-
+from nltk.corpus import stopwords
 # Set PAFY_BACKEND environment variable
 os.environ["PAFY_BACKEND"] = "internal"
 
